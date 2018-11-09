@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/ramon-alcantara-move/petstoreApiTest.git",
   "author": "Ramón Alcántara <ramon.alcantara@move.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "ts-mocha": "^2.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
 }
