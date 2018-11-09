@@ -5,7 +5,7 @@
   "repository": "https://github.com/ramon-alcantara-move/petstoreApiTest.git",
   "author": "Ramón Alcántara <ramon.alcantara@move.com>",
   "scripts": {
-    "test": "mocha -r ts-node/register **/*spec.ts"
+    "test": "mocha"
   },
   "license": "MIT",
   "devDependencies": {
