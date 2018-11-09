@@ -1,0 +1,9 @@
+{
+    "typescript.referencesCodeLens.enabled": true,
+    "mocha.runTestsOnSave": "false",
+    "mocha.showInExplorer": false,
+    "mocha.requires": [
+        "ts-node/register"
+    ],
+    "mocha.files.glob": "test/**/*spec.ts",
+}

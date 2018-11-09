@@ -3,4 +3,4 @@
     --require ts-node/register
     -u tdd
     --colors
-    **/*spec.ts
+    test/**/*spec.ts
