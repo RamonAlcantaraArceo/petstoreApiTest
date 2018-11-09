@@ -1,0 +1,9 @@
+{
+  "name": "petstoreApiTest",
+  "version": "0.0.1",
+  "description": "Use Swagger Petstore API to generate clients and test API",
+  "main": "index.js",
+  "repository": "https://github.com/ramon-alcantara-move/petstoreApiTest.git",
+  "author": "Ramón Alcántara <ramon.alcantara@move.com>",
+  "license": "MIT"
+}
