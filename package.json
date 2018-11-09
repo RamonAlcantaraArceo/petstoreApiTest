@@ -5,14 +5,18 @@
   "repository": "https://github.com/ramon-alcantara-move/petstoreApiTest.git",
   "author": "Ramón Alcántara <ramon.alcantara@move.com>",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "genApi": "docker run --rm -v ${PWD}:/local swaggerapi/swagger-codegen-cli generate -i https://petstore.swagger.io/v2/swagger.json -l typescript-node  -o /local/petstoreApi"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.4",
+    "bluebird": "^3.5.3",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "request": "^2.88.0",
     "ts-mocha": "^2.0.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.6"
